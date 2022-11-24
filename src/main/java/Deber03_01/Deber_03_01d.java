@@ -33,7 +33,7 @@ public class Deber_03_01d extends JFrame {
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.iniciarPaneles();
 
-        this.setContentPane(this.jPanelList.get(30));
+        this.setContentPane(this.jPanelList.get(20));
 
         this.setVisible(true);
 
@@ -41,38 +41,6 @@ public class Deber_03_01d extends JFrame {
 
     public void iniciarPaneles() {
         this.jPanelList = new ArrayList<>();
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
@@ -123,7 +91,7 @@ public class Deber_03_01d extends JFrame {
         this.jPanelList.get(3).setBounds(new Rectangle(108, 40, 69, 35));
 
         this.jPanelList.get(4).setBackground(Color.lightGray);
-        this.jPanelList.get(4).add(new JLabel("Long-Named Button4"));
+        this.jPanelList.get(4).add(new JLabel("Long-Named Button 4"));
         this.jPanelList.get(4).setBorder(new BevelBorder(BevelBorder.RAISED));
         this.jPanelList.get(4).setBounds(new Rectangle(3, 76, 280, 35));
 
@@ -135,62 +103,61 @@ public class Deber_03_01d extends JFrame {
 
         this.jPanelList.get(7).setBackground(Color.white);
         this.jPanelList.get(7).setBounds(new Rectangle(80, 50, 25, 5));
-        
+
         this.jPanelList.get(8).setBackground(Color.blue);
         this.jPanelList.get(8).setBounds(new Rectangle(105, 30, 10, 60));
-        
+
         this.jPanelList.get(9).setBackground(Color.white);
         this.jPanelList.get(9).setBounds(new Rectangle(115, 30, 5, 20));
-        
+
         this.jPanelList.get(10).setBackground(Color.red);
         this.jPanelList.get(10).setBounds(new Rectangle(120, 30, 70, 20));
-        
-         this.jPanelList.get(11).setBackground(Color.white);
+
+        this.jPanelList.get(11).setBackground(Color.white);
         this.jPanelList.get(11).setBounds(new Rectangle(115, 50, 75, 5));
-        
-         this.jPanelList.get(12).setBackground(Color.blue);
+
+        this.jPanelList.get(12).setBackground(Color.blue);
         this.jPanelList.get(12).setBounds(new Rectangle(80, 55, 110, 10));
-       
-         this.jPanelList.get(14).setBackground(Color.white);
+
+        this.jPanelList.get(14).setBackground(Color.white);
         this.jPanelList.get(14).setBounds(new Rectangle(80, 65, 25, 5));
-        
-          this.jPanelList.get(15).setBackground(Color.red);
+
+        this.jPanelList.get(15).setBackground(Color.red);
         this.jPanelList.get(15).setBounds(new Rectangle(80, 70, 20, 20));
-        
+
         this.jPanelList.get(16).setBackground(Color.white);
         this.jPanelList.get(16).setBounds(new Rectangle(115, 65, 75, 5));
-        
+
         this.jPanelList.get(17).setBackground(Color.white);
         this.jPanelList.get(17).setBounds(new Rectangle(115, 65, 5, 25));
-        
+
         this.jPanelList.get(18).setBackground(Color.white);
         this.jPanelList.get(18).setBounds(new Rectangle(100, 65, 5, 25));
-        
-           this.jPanelList.get(19).setBackground(Color.red);
-        this.jPanelList.get(19).setBounds(new Rectangle(120, 70, 70, 20));
-        
 
-        this.jPanelList.get(30).setLayout(null);
-        this.jPanelList.get(30).add(this.jPanelList.get(5));
-        this.jPanelList.get(30).add(this.jPanelList.get(6));
-        this.jPanelList.get(30).add(this.jPanelList.get(7));
-            this.jPanelList.get(30).add(this.jPanelList.get(8));
-            this.jPanelList.get(30).add(this.jPanelList.get(9));
-            this.jPanelList.get(30).add(this.jPanelList.get(10));
-             this.jPanelList.get(30).add(this.jPanelList.get(11));
-               this.jPanelList.get(30).add(this.jPanelList.get(12));
-               this.jPanelList.get(30).add(this.jPanelList.get(13));
-                this.jPanelList.get(30).add(this.jPanelList.get(14));
-                 this.jPanelList.get(30).add(this.jPanelList.get(15));
-                   this.jPanelList.get(30).add(this.jPanelList.get(16));
-                   this.jPanelList.get(30).add(this.jPanelList.get(17));
-                   this.jPanelList.get(30).add(this.jPanelList.get(18));
-                   this.jPanelList.get(30).add(this.jPanelList.get(19));
-        this.jPanelList.get(30).add(this.jPanelList.get(0));
-        this.jPanelList.get(30).add(this.jPanelList.get(1));
-        this.jPanelList.get(30).add(this.jPanelList.get(2));
-        this.jPanelList.get(30).add(this.jPanelList.get(3));
-        this.jPanelList.get(30).add(this.jPanelList.get(4));
+        this.jPanelList.get(19).setBackground(Color.red);
+        this.jPanelList.get(19).setBounds(new Rectangle(120, 70, 70, 20));
+
+        this.jPanelList.get(20).setLayout(null);
+        this.jPanelList.get(20).add(this.jPanelList.get(5));
+        this.jPanelList.get(20).add(this.jPanelList.get(6));
+        this.jPanelList.get(20).add(this.jPanelList.get(7));
+        this.jPanelList.get(20).add(this.jPanelList.get(8));
+        this.jPanelList.get(20).add(this.jPanelList.get(9));
+        this.jPanelList.get(20).add(this.jPanelList.get(10));
+        this.jPanelList.get(20).add(this.jPanelList.get(11));
+        this.jPanelList.get(20).add(this.jPanelList.get(12));
+        this.jPanelList.get(20).add(this.jPanelList.get(13));
+        this.jPanelList.get(20).add(this.jPanelList.get(14));
+        this.jPanelList.get(20).add(this.jPanelList.get(15));
+        this.jPanelList.get(20).add(this.jPanelList.get(16));
+        this.jPanelList.get(20).add(this.jPanelList.get(17));
+        this.jPanelList.get(20).add(this.jPanelList.get(18));
+        this.jPanelList.get(20).add(this.jPanelList.get(19));
+        this.jPanelList.get(20).add(this.jPanelList.get(0));
+        this.jPanelList.get(20).add(this.jPanelList.get(1));
+        this.jPanelList.get(20).add(this.jPanelList.get(2));
+        this.jPanelList.get(20).add(this.jPanelList.get(3));
+        this.jPanelList.get(20).add(this.jPanelList.get(4));
 
     }
 }
