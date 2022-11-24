@@ -65,7 +65,7 @@ public class Deber_03_01c extends JFrame {
         this.jPanelList.get(2).setBounds(new Rectangle(183, 3, 105, 35));
 
         this.jPanelList.get(3).setBackground(Color.lightGray);
-        this.jPanelList.get(3).add(new JLabel("Long-Named Button4"));
+        this.jPanelList.get(3).add(new JLabel("Long-Named Button 4"));
         this.jPanelList.get(3).setBorder(new EtchedBorder(EtchedBorder.LOWERED));
         this.jPanelList.get(3).setBounds(new Rectangle(289, 3, 280, 35));
 
